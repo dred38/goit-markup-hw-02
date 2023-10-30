@@ -106,6 +106,14 @@ Weight
   letter-spacing: 0.03em;
 }
 .text {
+  color: var(--header-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+}
+.text-title {
   color: #757575;
   font-family: Roboto;
   font-size: 14px;
