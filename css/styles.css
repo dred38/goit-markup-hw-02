@@ -125,6 +125,12 @@ ul {
   letter-spacing: 0.06em;
   text-align: center;
 }
+.btn-link:hover {
+  color: var(--accent-color);
+}
+.btn-link:focus {
+  color: var(--accent-color);
+}
 /* section (одинакові секції)*/
 .section,
 .section-title {
