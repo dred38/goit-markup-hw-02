@@ -117,7 +117,6 @@ ul {
 .btn-nav {
   color: #ffffff;
   background-color: var(--accent-color);
-
   font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
@@ -125,11 +124,23 @@ ul {
   letter-spacing: 0.06em;
   text-align: center;
 }
+.btn-nav:hover {
+  color: var(--accent-color);
+}
+
 .btn-link:hover {
   color: var(--accent-color);
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 .btn-link:focus {
   color: var(--accent-color);
+}
+.btn-slink {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 /* section (одинакові секції)*/
 .section,
