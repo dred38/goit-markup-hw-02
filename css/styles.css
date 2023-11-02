@@ -115,10 +115,9 @@ ul {
   letter-spacing: 0.06em;
   text-align: center;
 }
-.btn-nav:hover {
-  color: var(--accent-color);
+.btn-link: {
+  background-color: var(--accent-color);
 }
-
 .btn-link:hover {
   color: var(--accent-color);
   color: #ffffff;
@@ -177,8 +176,9 @@ ul {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: 24px;
   letter-spacing: 0.42px;
+  text-decoration: none;
 }
 
 footer {
