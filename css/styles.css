@@ -25,8 +25,8 @@ Weight
 ul {
   list-style: none;
 }
-/* home page */
-.page {
+
+* home page */ .page {
   background-color: #ffffff;
   font-family: Roboto, Arial;
   letter-spacing: 0.03em;
@@ -60,11 +60,6 @@ ul {
   color: var(--header-color);
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: var(--accent-color);
-}
-
 .nav-mail {
   color: #757575;
   font-family: Roboto;
@@ -76,10 +71,6 @@ ul {
   text-decoration: none;
 }
 
-.nav-mail:hover,
-.nav-mail:focus {
-  color: var(--accent-color);
-}
 .nav-tel {
   color: #757575;
   font-family: Roboto;
@@ -89,6 +80,10 @@ ul {
   line-height: normal;
   letter-spacing: 0.28px;
   text-decoration: none;
+}
+.nav-mail:hover,
+.nav-mail:focus {
+  color: var(--accent-color);
 }
 
 /* section baton (секція кнопка) */
@@ -169,7 +164,7 @@ ul {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.42px;
   text-decoration: none;
 }
@@ -180,4 +175,31 @@ footer {
 .footer-nav {
   font-family: Roboto, Arial;
   letter-spacing: 0.03em;
+}
+
+/* cursor */
+.nav-slink {
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  color: var(--header-color);
+}
+
+.btn-splink {
+  background-color: var(--accent-color);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.nav-slink:hover {
+  cursor: pointer;
+  color: var(--accent-color);
+}
+.nav-slink:focus {
+  color: var(--accent-color);
 }
