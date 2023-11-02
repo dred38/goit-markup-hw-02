@@ -115,17 +115,10 @@ ul {
   letter-spacing: 0.06em;
   text-align: center;
 }
-.btn-link: {
+.btn-link {
   background-color: var(--accent-color);
 }
-.btn-link:hover {
-  color: var(--accent-color);
-  color: #ffffff;
-  background-color: var(--accent-color);
-}
-.btn-link:focus {
-  color: var(--accent-color);
-}
+
 .btn-slink {
   font-size: 16px;
   font-weight: 500;
