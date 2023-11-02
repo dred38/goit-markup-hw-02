@@ -26,11 +26,12 @@ ul {
   list-style: none;
 }
 
-* home page */ .page {
+.page {
   background-color: #ffffff;
   font-family: Roboto, Arial;
   letter-spacing: 0.03em;
 }
+
 /* logo */
 .logo span {
   color: var(--accent-color);
@@ -199,7 +200,6 @@ footer {
 .nav-slink:hover {
   cursor: pointer;
   color: var(--accent-color);
-  text-decoration: none;
 }
 .nav-slink:focus {
   color: var(--accent-color);
