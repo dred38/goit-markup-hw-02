@@ -199,7 +199,9 @@ footer {
 .nav-slink:hover {
   cursor: pointer;
   color: var(--accent-color);
+  text-decoration: none;
 }
 .nav-slink:focus {
   color: var(--accent-color);
+  text-decoration: none;
 }
