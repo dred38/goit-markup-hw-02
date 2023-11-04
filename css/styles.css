@@ -1,35 +1,30 @@
-/* color of the main text (колір основного тексту) 
-black чорний - #212121, gray сірий - #757575, 
-blue синій - #2196F3,white білий- #FFFFFF */
-/*background color колір фону основний - white білий- #FFFFFF * 
-second background color колір фону другий - темносірий #2F303A
-background color is third колір фону третій- світлосірий #F5F4FA */
-/* шрифти заї
-logo
-Raleway
-Weight
-700
-section
-Roboto
-Weight
-400
-500
-700
-900
-*/
-/*  */
+.conteiner {
+}
+
 :root {
   --accent-color: #2196f3;
   --header-color: #212121;
 }
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .page {
   background-color: #ffffff;
   font-family: Roboto, Arial;
   letter-spacing: 0.03em;
+  list-style: none;
 }
 
 /* logo */
@@ -70,6 +65,7 @@ ul {
   line-height: normal;
   letter-spacing: 0.28px;
   text-decoration: none;
+  margin: 0;
 }
 
 .nav-tel {
@@ -83,36 +79,50 @@ ul {
   text-decoration: none;
 }
 .nav-mail:hover,
-.nav-mail:focus {
+.nav-mail:focus,
+.nav-tel:hover,
+.nav-tel:focus {
   color: var(--accent-color);
 }
 
 /* section baton (секція кнопка) */
 .btn {
+  text-align: center;
   background-color: #2f303a;
+  margin: 0;
+  margin-bottom: 94px;
 }
+
 .btn-text {
   color: #ffffff;
-
   font-family: Roboto;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
+  margin-bottom: 30px;
 }
+
 .btn-nav {
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: #188ce8;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.8;
   letter-spacing: 0.06em;
   text-align: center;
+  border-radius: 4px;
+  padding: 10px 24px;
+  min-width: 200px;
+  height: 50px;
 }
-.btn-link {
+
+.btn-nav:hover,
+:focus {
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .btn-slink {
@@ -121,6 +131,12 @@ ul {
   line-height: 1.6;
   letter-spacing: 0.03em;
 }
+.btn-slink:hover,
+:focus {
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
+
 /* section (одинакові секції)*/
 .section,
 .section-title {
@@ -131,6 +147,7 @@ ul {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 /* text */
 .text {
@@ -189,19 +206,11 @@ footer {
   color: var(--header-color);
 }
 
-.btn-splink {
-  background-color: var(--accent-color);
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-}
-.nav-slink:hover {
+.nav-link:hover {
   cursor: pointer;
   color: var(--accent-color);
 }
-.nav-slink:focus {
+.nav-link:focus {
   color: var(--accent-color);
   text-decoration: none;
 }
