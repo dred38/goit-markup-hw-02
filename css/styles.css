@@ -1,4 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 .conteiner {
+  width: 1200px;
 }
 
 :root {
