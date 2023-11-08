@@ -9,7 +9,9 @@ html {
 }
 
 .conteiner {
-  width: 1200px;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 h1,
@@ -34,7 +36,6 @@ ul {
 .page {
   background-color: #ffffff;
   font-family: Roboto, Arial;
-  letter-spacing: 0.03em;
   list-style: none;
 }
 
@@ -56,12 +57,12 @@ ul {
   font-weight: 700;
   line-height: normal;
   text-decoration: none;
+  margin-bottom: 28px;
 }
 
 /* navigation */
 .nav-link {
   text-decoration: none;
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -70,7 +71,6 @@ ul {
 
 .nav-mail {
   color: #757575;
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -82,7 +82,6 @@ ul {
 
 .nav-tel {
   color: #757575;
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -101,35 +100,35 @@ ul {
 .btn {
   text-align: center;
   background-color: #2f303a;
-  margin: 0;
+  margin: 94px;
+  width: 1200px;
+  text-align: center;
 }
 
 .btn-text {
   color: #ffffff;
-  font-family: Roboto;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  margin-bottom: 30px;
   width: 696px;
   height: 120px;
   margin-left: 248px;
+  margin-bottom: 40px;
 }
 
 .btn-nav {
   color: #ffffff;
   background-color: #188ce8;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.8;
   letter-spacing: 0.06em;
-  text-align: center;
   border-radius: 4px;
   padding: 10px 24px;
   min-width: 200px;
   height: 50px;
+  display: inline-block;
 }
 
 .btn-nav:hover,
@@ -170,6 +169,7 @@ ul {
   font-weight: 500;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .text-title {
   color: #757575;
@@ -178,6 +178,8 @@ ul {
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .section-title {
   color: var(--header-color);
@@ -187,11 +189,13 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 94px;
 }
+
 /* footer */
 .nav-adres {
   color: #fff;
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -212,7 +216,6 @@ footer {
 .nav-slink {
   cursor: pointer;
   text-decoration: none;
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
