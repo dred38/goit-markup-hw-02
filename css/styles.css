@@ -89,6 +89,7 @@ ul {
   letter-spacing: 0.28px;
   text-decoration: none;
 }
+
 .nav-mail:hover,
 .nav-mail:focus,
 .nav-tel:hover,
@@ -229,4 +230,10 @@ footer {
 .nav-link:focus {
   color: var(--accent-color);
   text-decoration: none;
+}
+.foot {
+  min-height: 251px;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
